@@ -3,7 +3,6 @@ function tailMoving(){
     var tailRowPosition = extractRow(tailPosition);
     var tailColumnPosition = extractColumn(tailPosition);
     var tailSrc = document.getElementById(tailPosition).src;
-    //var tailFromWhere = tailSrc[tailSrc.length - 9] + tailSrc[tailSrc.length - 8];
     var tailToWhere = tailSrc[tailSrc.length - 6] + tailSrc[tailSrc.length - 5];
     var nextTailRow;
     var nextTailColumn;

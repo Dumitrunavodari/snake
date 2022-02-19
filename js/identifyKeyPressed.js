@@ -11,7 +11,6 @@ function identifyKeyPressed(e) {
           intervalID37 = setInterval(function() {
             if(document.getElementById("keyPressed").value == 37){
               headMoving(37);
-              //bodyMoving();
             } else {
               clearInterval(intervalID37);
             }
@@ -24,7 +23,6 @@ function identifyKeyPressed(e) {
           intervalID38 = setInterval(function() {
             if(document.getElementById("keyPressed").value == 38){
               headMoving(38);
-              //bodyMoving();
             } else {
               clearInterval(intervalID38);
             }
@@ -37,7 +35,6 @@ function identifyKeyPressed(e) {
           intervalID39 = setInterval(function() {
             if(document.getElementById("keyPressed").value == 39){
               headMoving(39);
-              //bodyMoving();
             } else {
               clearInterval(intervalID39);
             }
@@ -50,7 +47,6 @@ function identifyKeyPressed(e) {
           intervalID40 = setInterval(function() {
             if(document.getElementById("keyPressed").value == 40){
               headMoving(40);
-              //bodyMoving();
             } else {
               clearInterval(intervalID40);
             }

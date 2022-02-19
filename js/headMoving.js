@@ -29,7 +29,6 @@ function headMoving(keyPressed){
 
   var nextHeadPosition = nextHeadRow +'_'+ nextHeadColumn;
   if (nextHeadRow < 1 || nextHeadRow > 20 || nextHeadColumn < 1 || nextHeadColumn > 20) {
-    //alert("you loose being out of the grid");
     location.reload();
     return false;
   } else {
